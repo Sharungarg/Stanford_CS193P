@@ -80,7 +80,7 @@ struct ThemeButton: View {
 }
 
 struct CardView: View {
-    @State var isCardUp: Bool = false
+    @State var isCardUp: Bool = true
     var content: String
     var body: some View {
         ZStack {
